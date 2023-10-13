@@ -1,0 +1,14 @@
+@media (max-width: 400px){
+    #nosActions{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+}
+
+
+@media (min-width: 400px){
+    #nosActions{
+        justify-content: space-around;
+    }    
+}
