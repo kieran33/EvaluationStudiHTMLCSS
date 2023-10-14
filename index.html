@@ -32,7 +32,7 @@
                                 <a class="nav-link" href="#quiSommesNous">Qui sommes-nous ?</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Faire un don</a>
+                                <a class="nav-link" href="#sectionDon">Faire un don</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
@@ -89,8 +89,7 @@
 
             <h2 class="text-center mt-5" id="quiSommesNous">Qui Sommes-nous ?</h2>
 
-            <div class="container" id="secionQuiNousSommes">
-
+            <div class="container" id="sectionQuiNousSommes">
                 <article class="container">
                     <img src="Association.jpeg" class="col-12 col-lg-10 mt-5">
                 </article>
@@ -107,27 +106,70 @@
             
         </section>
 
-
-
-
-
-
-        <!--
-        <section>
-            <div class="container">
+        <section class="container" id="sectionDon">
+            <h2 class="text-center mt-5">Vous souhaitez nous aider ?</h2>
                 <div class="row g-0 mt-5">
                     <div class="card col-12 mt-5">
                         <img src="Don association animaux.jpg" 
                             alt="association animaux" class="card-img">
-                        <div class="card-body text-center card-img-overlay">
-                            <a href="#" class="btn btn-success mt-5">Faîtes un don</a>
+                        <div class="card-body card-img-overlay text-center row align-items-center justify-content-center">
+                            <div class="container">
+                                <button type="button" class="btn btn-dark my-5" data-bs-toggle="modal" data-bs-target="#maModal">
+                                    Je fais un don
+                                </button>
+                      
+                                <div class="modal fade" id="maModal" tabindex="-1" aria-labelledby="maModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="maModalLabel">Merci pour votre soutient</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form action="">
+                                                    <div class="col">
+                                                        <label for="nom" class="form-label">Nom</label>
+                                                        <input type="text" class="form-control mb-2" id="nom"
+                                                            placeholder="Votre nom (obligatoire)" required>
+                                                    </div>
+                                                    <div class="col">
+                                                        <label for="nom" class="form-label">Prénom</label>
+                                                        <input type="text" class="form-control mb-2" id="prenom"
+                                                            placeholder="Votre prénom (obligatoire)" required>
+                                                    </div>
+                                                    <div class="col">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <input type="email" class="form-control mb-2" id="email"
+                                                            placeholder="Votre adresse email (obligatoire)" required>
+                                                    </div>
+                                                    <div class="col">
+                                                        <label for="don" class="form-label">Montant de votre don</label>
+                                                        <select class="form-select mb-2" id="don" required>
+                                                            <option value="">Montant de votre don</option>
+                                                            <option value="1">10€</option>
+                                                            <option value="2">20€</option>
+                                                            <option value="3">30€</option>
+                                                            <option value="4">40€</option>
+                                                            <option value="5">50€</option>
+                                                        </select>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-dark" type="submit">Envoyer</button>
+                                                <p>En cliquant sur envoyer, vous serez dirigé vers la plateforme de payment. Merci de votre
+                                                    soutient.
+                                                </p>
+                                                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Fermer</button>               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        -->
-        
-        
+        </section>   
     </body>
 </html>

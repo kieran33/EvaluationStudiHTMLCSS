@@ -12,8 +12,12 @@
         justify-content: space-around;
     }    
 
-    #secionQuiNousSommes{
+    #sectionQuiNousSommes{
         display: flex;
         flex-direction: row;
+    }
+
+    #sectionDon{
+        justify-content: center;
     }
 }
