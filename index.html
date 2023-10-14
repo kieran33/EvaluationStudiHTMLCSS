@@ -35,7 +35,7 @@
                                 <a class="nav-link" href="#sectionDon">Faire un don</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Nos prochains événements</a>
@@ -170,6 +170,42 @@
                         </div>
                     </div>
                 </div>
-        </section>   
+        </section>
+        
+        <footer id="contact">
+            <div class="container">
+                <h2 class="p-5 text-center">Contactez-nous</h2>
+                <p class="text-center">Une question ? Ou simplement envie de nous rejoindre ? Contactez-nous en remplissant le
+                    formulaireci-dessous.
+                </p>
+                <form action="">
+                    <div class="row">
+                        <div class="col-12 mb-3">
+                            <label for="votreNom" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="votreNom" placeholder="Votre nom (obligatoire)"
+                                required>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="votrePrenom" class="form-label">Prénom</label>
+                            <input type="text" class="form-control" id="votrePrenom"
+                                placeholder="Votre prénom (obligatoire)" required>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="votreEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="votreEmail"
+                                placeholder="Votre adresse email (obligatoire)" required>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="message" class="form-label">Votre message</label>
+                            <textarea class="form-control" id="message" rows="4"
+                                placeholder="Votre message (facultatif)"></textarea>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <button class="btn btn-dark" type="submit">Envoyer</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </footer>
     </body>
 </html>
