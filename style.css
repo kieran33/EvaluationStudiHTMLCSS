@@ -1,14 +1,19 @@
-@media (max-width: 400px){
+/*@media (max-width: 991px){
     #nosActions{
         display: flex;
         flex-direction: column;
         align-items: center;
     }    
-}
+}*/
 
 
-@media (min-width: 400px){
+@media (min-width: 991px){
     #nosActions{
         justify-content: space-around;
     }    
+
+    #secionQuiNousSommes{
+        display: flex;
+        flex-direction: row;
+    }
 }
