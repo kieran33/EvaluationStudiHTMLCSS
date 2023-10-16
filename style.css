@@ -1,18 +1,9 @@
-/*@media (max-width: 991px){
-    #nosActions{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }    
-}*/
-
-
 @media (min-width: 991px){
     #nosActions{
         justify-content: space-around;
     }    
 
-    #sectionQuiNousSommes{
+    #sectionQuiSommesNous{
         display: flex;
         flex-direction: row;
     }
@@ -20,4 +11,8 @@
     #sectionDon{
         justify-content: center;
     }
+}
+
+a:hover{
+    opacity: 0.2;
 }
